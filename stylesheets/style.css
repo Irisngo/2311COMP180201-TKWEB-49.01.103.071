@@ -1,0 +1,228 @@
+﻿.placeholder, #symbol, #number1, #number2, #answer, #result {
+    display: inline-block;
+    font-weight: bold;
+}
+
+#number1, #number2, #answer {
+    text-align: right;
+}
+
+#answer {
+    padding: 0px;
+}
+
+.input-correct {
+    background-color: #5cb85c;
+    border-color: transparent;
+    color: #ebebeb;
+}
+
+.input-wrong {
+    background-color: #d9534f;
+    border-color: transparent;
+    color: #ebebeb;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+    body {
+        padding-top: 40px;
+    }
+
+    .margin-top-xs {
+        margin-top: 10px;
+    }
+
+    .margin-bottom-xs {
+        margin-bottom: 0px;
+    }
+
+    .margin-left-xs {
+        margin-left: 0px;
+    }
+
+    .margin-right-xs {
+        margin-right: 0px;
+    }
+
+    .placeholder, #symbol, #number1, #number2, #answer, #result {
+        font-size: 20px;
+    }
+
+    .placeholder, #symbol {
+        width: 20px;
+    }
+
+    #number1, #number2, #answer {
+        width: 60px;
+    }
+
+    #answer {
+        height: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-top: 45px;
+    }
+
+    .margin-top-sm {
+        margin-top: 10px;
+    }
+
+    .margin-bottom-sm {
+        margin-bottom: 5px;
+    }
+
+    .margin-left-sm {
+        margin-left: 0px;
+    }
+
+    .margin-right-sm {
+        margin-right: 0px;
+    }
+
+    .margin-right-0 {
+        margin-right: 0px;
+    }
+
+    .margin-left-0 {
+        margin-left: 0px;
+    }
+
+    .padding-right-0 {
+        padding-right: 0px;
+    }
+
+    .padding-left-0 {
+        padding-left: 0px;
+    }
+
+    .placeholder, #symbol, #number1, #number2, #answer, #result {
+        font-size: 25px;
+    }
+
+    .placeholder, #symbol {
+        width: 20px;
+    }
+
+    #number1, #number2, #answer {
+        width: 70px;
+    }
+
+    #answer {
+        height: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 50px;
+    }
+
+    .margin-top-md {
+        margin-top: 10px;
+    }
+
+    .margin-bottom-md {
+        margin-bottom: 10px;
+    }
+
+    .margin-left-md {
+        margin-left: 0px;
+    }
+
+    .margin-right-md {
+        margin-right: 0px;
+    }
+
+    .margin-right-0 {
+        margin-right: 0px;
+    }
+
+    .margin-left-0 {
+        margin-left: 0px;
+    }
+
+    .padding-right-0 {
+        padding-right: 0px;
+    }
+
+    .padding-left-0 {
+        padding-left: 0px;
+    }
+
+    .placeholder, #symbol, #number1, #number2, #answer, #result {
+        font-size: 30px;
+    }
+
+    .placeholder, #symbol {
+        width: 20px;
+    }
+
+    #number1, #number2, #answer {
+        width: 80px;
+    }
+
+    #answer {
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        padding-top: 60px;
+    }
+
+    .margin-top-lg {
+        margin-top: 20px;
+    }
+
+    .margin-bottom-lg {
+        margin-bottom: 15px;
+    }
+
+    .margin-left-lg {
+        margin-left: 0px;
+    }
+
+    .margin-right-lg {
+        margin-right: 0px;
+    }
+
+    .margin-right-0 {
+        margin-right: 0px;
+    }
+
+    .margin-left-0 {
+        margin-left: 0px;
+    }
+
+    .padding-right-0 {
+        padding-right: 0px;
+    }
+
+    .padding-left-0 {
+        padding-left: 0px;
+    }
+
+    .placeholder, #symbol, #number1, #number2, #answer, #result {
+        font-size: 40px;
+    }
+
+    .placeholder, #symbol {
+        width: 20px;
+    }
+
+    #number1, #number2, #answer {
+        width: 90px;
+    }
+
+    #answer {
+        height: 60px;
+    }
+}
